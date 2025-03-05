@@ -6,6 +6,7 @@ Replicating Figure 1 of modern biology papers.
 
 F1L contains a curated set of questions, data, and methods that you can use to build a strong compbio project:
 1. **Questions** presented in the form of papers are sourced from the fields of cancer biology, immunology, neuroscience, stem cell biology. Figure 1 of these papers serve as our starting point. These papers address topics of broad scientific appeal to both academia and industry so you are working on problems that people actually care about.
+   - RECENTLY ADDED - [Melms_2021_Nature](https://www.nature.com/articles/s41586-021-03569-1)  is a study on human lungs with lethal COVID-19.
    - [Kinker_2020_NatureGenetics](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8135089/) is study of biological programs in commonly used cancer cell lines.
    - [Schmidt_2022_Science](https://www.science.org/doi/10.1126/science.abj4008) is a study of CRISPR-edited human T cells.
    - [Trevino_2021_Cell](https://www.sciencedirect.com/science/article/pii/S0092867421009429) is a study of human cortex development.
@@ -14,9 +15,9 @@ F1L contains a curated set of questions, data, and methods that you can use to b
 3. **Methods** are well-documented Python packages. F1L does not emphasize method development because there are already plenty of powerful, popular methods that you can use to put together a brilliant compbio project. No need to reinvent the wheel.
 
 
-The notebooks only recreate a part of Figure 1.
+Analysis for Melms data recreates multiple figures presented throughout the paper. Most of the analysis for other papers only recreate a part of Figure 1. 
 
-A simple directory structure that you might use to organize your work:
+A simple directory structure used to organize work:
 
 <img width="325" alt="Screen Shot 2024-01-01 at 5 42 52 PM" src="https://github.com/deanslee/FigureOneLab/assets/35471368/43a129e4-fa33-469a-9206-f07d9854f071">
 
@@ -24,9 +25,6 @@ A simple directory structure that you might use to organize your work:
 
 - FigureOneLab/trevino/outs/ holds all the intermediate and final outputs of analysis.
 
-- FigureOneLab/trevino/filename1.ipynb is first analysis.
-
-- FigureOneLab/trevino/filename2.ipynb is second analysis. etc.
 
 ### **A Concise List of Helpful Resources/References**
 - [3Blue1Brown](https://www.youtube.com/c/3blue1brown) for linear algebra
